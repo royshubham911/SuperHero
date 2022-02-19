@@ -15,11 +15,22 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 .header{
-    padding: 1rem;
-    margin-bottom: 0.5rem;
+    padding:0;
+    margin-bottom: 0rem;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: var(--primary_color);
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.inner-header{
+    padding: 5px;
+    margin: 10px;
 }
 
 #search{
